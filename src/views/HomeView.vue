@@ -1,5 +1,6 @@
 <script setup>
 import LeftView from "../components/LeftView.vue";
+import RightView from "../components/RightView.vue";
 </script>
 
 <template>
@@ -10,13 +11,8 @@ import LeftView from "../components/LeftView.vue";
       >
         <LeftView />
       </div>
-      <div class="bg-[#100E1D]">
-        <h1 class="text-white">This is the right side</h1>
-        <p class="text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          adipisci velit quae nemo nulla, inventore, fuga, recusandae cumque
-          iure vel vero repudiandae? Ipsam, quo!
-        </p>
+      <div class="bg-[#100E1D] w-screen h-screen px-3 py-3 md:px-[123px] md:py-[42px]">
+        <RightView />
       </div>
     </div>
   </main>
